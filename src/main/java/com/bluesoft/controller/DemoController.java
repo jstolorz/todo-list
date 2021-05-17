@@ -9,8 +9,13 @@ public class DemoController {
 
     @ResponseBody
     @GetMapping("/hello")
-    public String hello(){
+    public String hello() {
         return "Hello";
+    }
+
+    @GetMapping("welcome")
+    public String welcome(){
+       return "welcome";
     }
 
 }
