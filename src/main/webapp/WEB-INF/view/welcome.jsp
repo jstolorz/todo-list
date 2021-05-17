@@ -5,6 +5,7 @@
     <title>Welcome</title>
 </head>
 <body>
-  From welcome.jsp
+  From welcome.jsp -- ${helloMessage}
+  <h2>${welcomeMessage}</h2>
 </body>
 </html>
