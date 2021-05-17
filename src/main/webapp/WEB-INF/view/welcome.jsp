@@ -5,7 +5,8 @@
     <title>Welcome</title>
 </head>
 <body>
-  From welcome.jsp -- ${helloMessage}
+  <p>From welcome.jsp -- ${helloMessage}</p>
+  <p>Age parameter is ${age}</p>
   <h2>${welcomeMessage}</h2>
 </body>
 </html>
